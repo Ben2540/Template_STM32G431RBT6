@@ -109,6 +109,7 @@ int main(void)
   while (nRF24_RecMode(&nRF24L01_Handle) == Error);
 
   HAL_Delay(100);
+  HAL_Delay(100);
   /* USER CODE END 2 */
 
   /* Infinite loop */
